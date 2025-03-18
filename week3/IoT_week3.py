@@ -2,7 +2,7 @@ import serial
 from influxdb_client import InfluxDBClient
 import time
 
-serial_port = 'COM4'
+serial_port = 'COM11'
 baud_rate = 9600
 timeout = 2
 
