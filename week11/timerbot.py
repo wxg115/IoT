@@ -15,3 +15,10 @@ def takePhoto():
     cv2.imwrite("./image.jpg", image)
     cap.release()
     cv2.destroyAllWindows()
+
+#async def alarm(context: ContextTypes.DEFAULT_TYPE) -> None:
+#   """Send the alarm message."""
+    takePhoto()
+#   job = context.job
+#   await context.bot.send_message(job.chat_id, text=f"Beep! {job.data} seconds are over!")
+    await context.bot.sendPhoto(job.chat_id, photo=open("./image.jpg", "rb"))
