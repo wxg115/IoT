@@ -1,4 +1,5 @@
 ##EDTING CODE
+
 def takePhoto():
     cap = cv2.VideoCapture(0)
     cap.set(cv2.CAP_PROP_FRAME_WIDTH,640)
@@ -22,3 +23,9 @@ def takePhoto():
 #   job = context.job
 #   await context.bot.send_message(job.chat_id, text=f"Beep! {job.data} seconds are over!")
     await context.bot.sendPhoto(job.chat_id, photo=open("./image.jpg", "rb"))
+
+#reply message handler
+async def test_msg(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    await update.message.reply_text("._.")
+# in main
+application.add_handler(CommandHandler("test", test_msg))
