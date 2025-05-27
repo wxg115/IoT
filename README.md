@@ -1,4 +1,4 @@
-# InfluxDB Installation
+# InfluxDB 설치
 
 ### 라즈베리파이 eth0 down && up
 ```
@@ -44,7 +44,7 @@ $ influx
 ```
 확인 : show databases 
 ```
-# Grafana Installation
+# Grafana 설치
 
 ## 1. Repository의 GPG key를 더하기
 ```
@@ -65,14 +65,4 @@ sudo apt install grafana
 ## 4. 프로그램 실행
 ```
 sudo service grafana-server start
-```
-## influxdb import with python
-```
-sudo pip3 install influxdb
-```
-## gpio pin map
-```
-cd /tmp
-wget https://project-downloads.drogon.net/wiringpi-latest.deb
-sudo dpkg -i wiringpi-latest.deb
 ```
