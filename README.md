@@ -14,7 +14,6 @@
 
 ```
 wget -qO- https://repos.influxdata.com/influxdb.key | sudo apt-key add -
-
 ```
 
 ## 2. Repository를 더하기
