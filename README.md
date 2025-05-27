@@ -1,6 +1,6 @@
 # InfluxDB 설치
 
-### 라즈베리파이 eth0 down && up
+## 라즈베리파이 eth0 down && up
 ```
   sudo ip link set down && sudo ip link set up
 ```
