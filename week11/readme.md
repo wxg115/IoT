@@ -62,8 +62,6 @@ $ sudo make install
 ```
 $ motelist
 ```
-<img src="/temp/1.PNG">
-
 ### 기본 미들웨어 소스코드 다운
 ```
 $ git clone https://github.com/sonnonet/2024_inhatc
